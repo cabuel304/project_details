@@ -1,0 +1,196 @@
+:root {
+    /* Replace your primary color from your UI Kit */
+    --bs-primary: #63404D;
+
+    /* Replace your secondary color from your UI Kit  */
+    --secondary-color: #406360;
+
+    --tertiary-color: #B9E5E8;
+
+    /* Optional: Replace gradient from your UI Kit */
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+.navbar {
+    font-family: Roboto Slab;
+    /* Optional: Make the navbar background transparent */
+    background-color: var(--bs-primary);
+
+    /* Optional: Move the navbar is positioned over the hero */
+    position: absolute;
+
+    /* Optional: Stretch the navbar across the full width */
+    width: 100%;
+
+    /* Optional: Add inner spacing to the navbar */
+    padding: 1.5rem;
+}
+
+
+.navbar a {
+  color: white;
+}
+
+footer {
+    font-family: Robot Slab;
+    /* Change footer background color */
+    background-color: var(--bs-primary);
+    /* Optional: Change footer text color to white using variable */
+    color: var(--bs-white);
+    /* Optional: Center footer elements */
+    text-align: center;
+}
+
+footer .footer-social {
+    /* Optional: Change size of footer icon */
+    width:24px;
+    margin:.5rem
+    
+}
+
+h1 {
+    font-size: 6rem;
+    border-width: 1cap;
+    border-color: white;
+}
+
+.btn-primary {
+    /* Optional: Change primary button background color to primary color */
+    background-color: var(--tertiary-color);
+    color: black;
+    font-weight: 500;
+    /* Optional: Remove primary button outline */
+    border: none;
+}
+
+
+/* PAGE: Home */
+.hero {
+    font-family: Roboto Slab;
+    -webkit-text-stroke: 0.001px white; /* Width and color of the stroke */
+
+    text-align: center;
+    /* Add a background image for the hero section */
+    background: url(../images/Project\ Details.png);
+
+    /* Adjust image size to cover the entire section */
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Optional: Color text white */
+    color: var(--bs-black);
+
+    /* Optional: Add a full-height hero section */
+    height: 200vh;
+    /* Optional: Add necessary props to center the text in the middle of the hero */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Model-Creature {
+ background-color: #63404D;
+ height: 120cap;
+ justify-content: space-around;
+ display: grid;
+}
+
+.Movie-Poster {
+background-color: #406360;
+height: 175cap;
+vertical-align: middle;
+justify-content: space-around;
+display: grid;
+}
+
+.Short-Story {
+background-color: #63404D;
+height: 300cap;
+justify-content: space-around;
+display: grid;
+}
+
+.Logo-Creation {
+background-color: #406360;
+height: 260cap;
+align-items: center;
+justify-content: space-around;
+float: left;
+}
+/********************************
+Typography
+**********************************/
+h1 {
+    /* Optional: Add letter spacing to all headings */
+    letter-spacing: -0.05rem;
+    /* Optional: Adjust font-weight to all headings */
+    font-weight: 700;
+    font
+    font-family: Roboto Slab;
+}
+
+h2 {
+    /* Optional: Adjust font-size of heading 2 */
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;;
+    font-family: Roboto Slab;
+    text-align: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.Heading-2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;;
+    font-family: Roboto Slab;
+    text-align: center;
+    justify-content: space-around;
+    height: 10cap;
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    color: white;
+    text-align: left;
+    justify-content: space-around;
+}
+
+p2 {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.Creature {
+justify-content: space-around;
+}
+
+.Title {
+max-width: 1000px;
+object-fit: cover;
+vertical-align: middle;
+display: flex;
+justify-content: space-around;
+}
+
+.Crystal {
+max-width: 1000px;
+object-fit: cover;
+vertical-align: middle;
+display: flex;
+justify-content: space-around;
+margin-top: 20%;
+}
+
+.Logo-Paragraphs {
+    margin-top: 3cap;
+}
+
+.card-text {
+}
