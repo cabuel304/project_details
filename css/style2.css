@@ -114,10 +114,13 @@ display: grid;
 
 .Logo-Creation {
 background-color: #406360;
-height: 260cap;
+height: 250cap;
 align-items: center;
 justify-content: space-around;
-float: left;
+}
+
+.Drafts {
+    float: left
 }
 /********************************
 Typography
@@ -163,6 +166,7 @@ p {
 p2 {
     font-family: "Roboto Slab", serif;
     font-style: normal;
+    color:white
     text-align: left;
     justify-content: space-around;
 }
@@ -190,7 +194,9 @@ margin-top: 20%;
 
 .Logo-Paragraphs {
     margin-top: 3cap;
+    color:white
 }
 
-.card-text {
+.img {
+align-items: center;
 }
